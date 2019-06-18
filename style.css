@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'ABeeZee', sans-serif;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-image: url(images/shop.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+a {
+    text-decoration: none
+}
+
+/* ***************** Header ***************** */
+
+.discount {
+    position: fixed;
+    text-align: center;
+    font-size: 1.2em;
+    width: 100%;
+    padding: 5px;
+    z-index: 3;
+    background-color: white;
+    border-bottom: solid black 1px;
+}
+
+.language {
+    display: flex;
+    justify-content: flex-end;
+
+    padding-top: 40px;
+    font-size: 0.8em;
+
+}
+
+.french {
+    color: black;
+    margin: 0 20px 0 20px;
+
+}
+
+.english {
+    color: black;
+    margin-right: 20px;
+
+}
+
+.ilovecats {
+    color: red;
+}
+
+.logo {
+    padding-top: 10px;
+}
+
+.dropbtn {
+
+    color: black;
+    margin-left: 20px;
+    padding: 0 20px 0 20px;
+    font-size: 0.9em;
+    border: none;
+}
+
+.dropdown {
+
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    margin-left: 20px;
+    padding-left: 5px;
+    display: none;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.7);
+    min-width: 120px;
+    font-size: 0.8em;
+    z-index: 3;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #e4fffd;
+}
+
+h1 {
+    margin-left: 100px;
+    color: black;
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Chakra Petch',
+        sans-serif;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0 40px 0;
+    font-size: 1.2em;
+}
+
+
+.catlogin {
+
+    margin-left: 10px;
+    background-image: url(images/login1.png);
+    background-size: cover;
+    width: 169px;
+    height: 87px;
+
+}
+
+.catlogin:hover {
+    background-image: url(images/login2.png);
+    background-size: cover;
+    width: 169px;
+    height: 87px;
+
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+}
+
+
+
+.main-nav {
+
+    font-size: 1.2em;
+
+    display: flex;
+    font-family: 'Chakra Petch', sans-serif;
+    justify-content: center;
+    padding: 0;
+    margin-top: 50px
+}
+
+
+.main-nav a:hover,
+.active {
+    background: #e4fffd;
+}
+
+/* ***************** Main ***************** */
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+
+    top: 50px;
+    justify-content: center;
+}
+
+.slider {
+    margin: 0 auto;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.new1 {
+    background-image: url(images/sunkist-lee-x-nzhfj4ljgv1rkc5ito1-1280.jpg);
+    background-size: cover;
+    width: 500px;
+    height: 600px;
+    margin-right: 20px;
+}
+
+.new2 {
+    background-image: url(images/sunkist-lee-x-nzhfj4ljgv1rkc5ito1-1280.jpg);
+    background-size: cover;
+    width: 550px;
+    height: 600px;
+    margin-left: 20px;
+}
+
+.shopbutton1 {
+    background-image: url(images/shopnow1.png);
+    background-size: cover;
+    width: 150px;
+    height: 49px;
+    margin: 500PX 175PX 0 175PX;
+    display: inline-block;
+}
+
+.shopbutton1:hover {
+    background-image: url(images/shopnow2%20.png);
+    background-size: cover;
+    width: 150px;
+    height: 49px;
+    margin: 500PX 175PX 0 175PX;
+}
+
+.shopbutton2 {
+    background-image: url(images/shopnow1.png);
+    background-size: cover;
+    width: 150px;
+    height: 49px;
+    margin: 500PX 200PX 0 200PX;
+    display: inline-block;
+}
+
+.shopbutton2:hover {
+    background-image: url(images/shopnow2.png);
+    background-size: cover;
+    width: 150px;
+    height: 49px;
+    background-image: url(images/shopnow2%20.png);
+    margin: 500PX 200PX 0 200PX;
+}
+
+/* ***************** Footer ***************** */
+footer {
+    display: flex;
+    width: 80%;
+    border-top: solid black 1px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px 0 50px 0;
+    /*    margin-top: 100px;*/
+    margin: 100px auto;
+}
+
+.footernave {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+h3 {
+    margin-bottom: 5px;
+    border-bottom: solid #808782 1px;
+}
+
+footer a {
+    font-size: 0.9em;
+    color: black;
+    padding: 5px;
+}
+
+footer p {
+    color: #808782;
+    font-size: 0.9em;
+}
+
+.subscription {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+
+}
+
+.subscrib-email {
+    color: ;
+    margin: 33px 20px 0 0;
+
+}
+
+
+
+input[type="email"] {
+    width: 200px;
+    height: 20px;
+}
+
+.submit-button {
+    font-size: 1.1em;
+    padding: 0.5em 1em;
+    background: #2a938e;
+    color: #fffcf4;
+    border-radius: 5px;
+    border: 0;
+    margin: 25px 25px 0 0;
+    width: 100px;
+}
+
+.submit-button:hover {
+    background: darkseagreen;
+}
+
+.footer-imgs {
+    border-top: solid black 1px;
+    text-align: center;
+}
+
+.payment {
+
+    display: inline-block;
+    width: 100%;
+}
+
+.payment img {
+    width: 40px;
+    height: 27px;
+    margin: 5px;
+}
+
+.contactus {
+
+    display: inline-block;
+    font-size: 15px;
+    color: black;
+
+}
+
+.contactus i {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.copyright {
+    margin-top: 20px;
+}
+
+.bridal-ribbon-top {
+    background: url('../../img/ribbon-top-left.png') no-repeat;
+    width: 233px;
+    height: 192px;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.bridal-ribbon-bottom {
+    background: url('../../img/ribbon-bottom-right.png') no-repeat;
+    width: 144px;
+    height: 115px;
+    bottom: 0;
+    right: 0;
+    pointer-events: none;
+}
